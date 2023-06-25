@@ -1,7 +1,7 @@
 # DATAO
 
 <p align='center'>
-<img src='./readmeFiles/React.svg' style='width:120px'></img>
+<img src='./readmeFiles/React.svg' style='width:100px'></img>
 <img src='./public/vite.svg' style='width:100px'></img>
 </p>
 

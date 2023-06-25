@@ -1,10 +1,17 @@
 # DATAO
 
-<p align='center'><img width='100' src='https://vuejs.org/images/logo.png'></img>
-<img width='100' src='https://vuejs.org/images/logo.png'></img>
+<p align='center'>
+<img src='./readmeFiles/React.svg' style='width:120px'></img>
+<img src='./public/vite.svg' style='width:100px'></img>
 </p>
 
 基于 React18 + TS + Vite 开发的 OBI 工具，可快速生成报表，数据大屏。
+
+## 预览
+
+<img src='./readmeFiles/preview01.png'></img>
+
+<img src='./readmeFiles/preview02.png'></img>
 
 ## 安装和使用
 

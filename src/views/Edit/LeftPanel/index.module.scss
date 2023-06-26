@@ -1,0 +1,35 @@
+.left-box {
+  width: 200px;
+  background-color: #272c33;
+  height: 100%;
+}
+.left-header {
+  height: 40px;
+  background-color: #272c33;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 12px;
+}
+.left-operator {
+  border-top: 2px solid #2e343c;
+  border-bottom: 2px solid #2e343c;
+  height: 24px;
+  background-color: #20242a;
+  .el-tooltip__trigger {
+  }
+}
+
+.el-scrollbar {
+  padding: 8px 4px;
+}
+.node {
+  padding: 0 8px;
+  cursor: pointer;
+  height: 44px;
+  background-color: #1b1f24;
+  // background-color: #4f7aff;
+  line-height: 44px;
+  &:hover {
+    background-color: #2a3a66;
+  }
+}

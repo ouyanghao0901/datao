@@ -1,14 +1,9 @@
 import { RouterProvider } from "react-router-dom";
 import { FC } from "react";
-import { Button } from "antd";
 import router from "./router";
 
 const App: FC = () => {
-  return (
-    <RouterProvider router={router}>
-      <Button>Button</Button>
-    </RouterProvider>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 };
 
 export default App;

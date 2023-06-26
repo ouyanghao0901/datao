@@ -1,15 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
-import { lazy } from "react";
 
 import Home from "../views/Home";
 import NotFound from "../views/404";
+import Edit from "../views/Edit";
 
-const Edit = lazy(() => import("../views/Edit"));
+// const Edit = lazy(() => import("../views/Edit"));
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Edit />,
   },
   {
     path: "/home",

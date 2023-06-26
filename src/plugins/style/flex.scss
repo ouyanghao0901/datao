@@ -3,6 +3,15 @@
 }
 
 .f-x {
+  display: flex;
+}
+
+.f-y {
+  display: flex;
+  flex-direction: column;
+}
+
+.j-c-c {
   justify-content: center;
 }
 
@@ -16,4 +25,12 @@
 
 .j-c-sa {
   justify-content: space-around;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
 }

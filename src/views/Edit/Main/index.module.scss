@@ -1,0 +1,29 @@
+.main-box {
+  background-color: #292d33;
+}
+
+.main-header {
+  height: 40px;
+  background-color: #191c21;
+}
+
+.content-box {
+  position: relative;
+  height: 100%;
+  .rule-x {
+    position: absolute;
+    background-color: #0d1013;
+    width: calc(100% - 24px);
+    height: 24px;
+    top: 0;
+    left: 24px;
+  }
+  .rule-y {
+    position: absolute;
+    background-color: #0d1013;
+    width: 24px;
+    height: calc(100% - 24px);
+    left: 0;
+    top: 24px;
+  }
+}

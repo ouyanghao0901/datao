@@ -9,21 +9,33 @@
 
 .content-box {
   position: relative;
-  height: 100%;
+  height: calc(100% - 40px);
   .rule-x {
     position: absolute;
     background-color: #0d1013;
     // width: calc(100% - 24px);
     // height: 24px;
     top: 0;
-    left: 24px;
+    left: 20px;
   }
   .rule-y {
     position: absolute;
     background-color: #0d1013;
-    width: 24px;
-    height: calc(100% - 24px);
+    // width: 24px;
+    // height: calc(100% - 24px);
     left: 0;
-    top: 24px;
+    top: 20px;
+  }
+
+  .scroll-wrap {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 0;
+    bottom: 0;
+  }
+  .scroll-box {
+    width: 500%;
+    height: 500%;
   }
 }

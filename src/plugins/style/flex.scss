@@ -11,6 +11,10 @@
   flex-direction: column;
 }
 
+.f-1 {
+  flex: 1;
+}
+
 .j-c-c {
   justify-content: center;
 }
@@ -21,6 +25,10 @@
 
 .j-c-sb {
   justify-content: space-between;
+}
+
+.j-c-fe {
+  justify-content: flex-end;
 }
 
 .j-c-sa {

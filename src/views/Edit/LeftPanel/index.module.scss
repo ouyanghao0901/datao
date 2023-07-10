@@ -6,9 +6,10 @@
 .left-header {
   height: 40px;
   background-color: #272c33;
-  color: #fff;
   line-height: 40px;
   padding: 0 12px;
+  color: #b9c4c8;
+  font-size: 14px;
 }
 .left-operator {
   border-top: 2px solid #2e343c;
@@ -16,6 +17,20 @@
   height: 24px;
   background-color: #20242a;
   .el-tooltip__trigger {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    i {
+      font-size: 12px;
+      background-color: #262b35;
+      color: #5d6469;
+      cursor: pointer;
+      &:hover {
+        background-color: #4f7aff;
+        color: #fff;
+      }
+    }
   }
 }
 
@@ -27,8 +42,9 @@
   cursor: pointer;
   height: 44px;
   background-color: #1b1f24;
-  // background-color: #4f7aff;
   line-height: 44px;
+  font-size: 14px;
+  color: #b9c4c8;
   &:hover {
     background-color: #2a3a66;
   }
